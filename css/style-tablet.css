@@ -1,0 +1,8 @@
+/* Stili specifici per schermi tablet */
+@media screen and ( max-width: 786px ) {
+    .container {
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+}

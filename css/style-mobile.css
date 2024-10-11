@@ -1,0 +1,39 @@
+/* Stili specifici per schermi mobile */
+@media screen and ( max-width: 480px ) {
+    .container {
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right {
+        width: 100%;
+        padding: 0;
+    }
+
+    .steps {
+        padding: 2rem 0;
+    }
+
+
+    .lessons .col img,
+    .steps .col img {
+        height: auto;
+        margin-bottom: 1rem;
+    }
+
+    .why-us img {
+        width: 100%;
+    }
+
+    h2,
+    h3 {
+        font-size: 1.5rem;
+    }
+}
